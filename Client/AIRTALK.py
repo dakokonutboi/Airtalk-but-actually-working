@@ -20,4 +20,3 @@ def sender(server):
 		rq.getconf(server + "/process.php?u="+username+"&msg="+msg)
 		time.sleep(1)
 
-sender(server)
